@@ -1,13 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
   background: #fbf9fb;
+}
+
+/*mobile first font size */
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.625em;
+}
+
+h3 {
+  font-size: 1.375em;
+}
+
+h4 {
+  font-size: 1.125em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #343239;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 h4, h5, h6 {
@@ -16,9 +38,17 @@ h4, h5, h6 {
 
 p {
   color: #666564;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
 
 a {
-  color: #f03d33;
+  color: #666564;
   text-decoration: underline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+a:hover {
+  color: #f03d33;
 }

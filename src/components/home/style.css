@@ -11,14 +11,36 @@
 
 .home, .portfolio-container {
   display: flex;
+  width: 100%;
 }
 
-.home, .portfolio-one {
-  width: 40%;
-  height: 300px;
+.home, .portfolio-one, .portfolio-two {
+  width: 100%;
 }
 
-.home, .portfolio-two {
-  width: 60%;
-  height: 300px;
+.home, .footer {
+  background: #343239;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  width: 100%;
+}
+.home, .contact {
+  width: 45%;
+  border-right: 1px solid #fff;
+}
+.home, .social-media {
+  width: 45%;
+}
+
+.home, .footer p {
+  color: #fff;
+}
+
+.home, .footer a {
+  color: #fff;
+}
+
+.home, .footer h4 {
+  color: #fff;
 }
