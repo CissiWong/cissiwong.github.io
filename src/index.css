@@ -1,5 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background: #fbf9fb;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343239;
+}
+
+h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+p {
+  color: #666564;
+}
+
+a {
+  color: #f03d33;
+  text-decoration: underline;
 }

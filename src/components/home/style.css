@@ -1,0 +1,24 @@
+.home, .navigation {
+  width: 100%;
+  height: 100px;
+}
+
+.home, .header {
+  background: #f03d33;
+  width: 100%;
+  height: 500px;
+}
+
+.home, .portfolio-container {
+  display: flex;
+}
+
+.home, .portfolio-one {
+  width: 40%;
+  height: 300px;
+}
+
+.home, .portfolio-two {
+  width: 60%;
+  height: 300px;
+}
