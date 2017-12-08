@@ -1,9 +1,9 @@
 .project, .project-wrapper {
-  padding: 10px;
-  margin: 10px;
+  width: 100%;
 }
 
 .project, img {
-  height: 300px;
-  width: 400px;
+  width: 100%;
+  height: auto;
+  background-size: contain;
 }

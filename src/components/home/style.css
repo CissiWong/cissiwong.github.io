@@ -7,22 +7,48 @@
 .home, .navigation, h6 {
   justify-content: flex-end;
   align-items: flex-end;
-  margin: 0;
+  margin: 0 40px 0 40px;
 }
 
 .home, .header {
-  background: #f03d33;
+  background: #fbf9fb;
   width: 100%;
-  height: auto;
+  height: 500px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
-.home, .portfolio-container {
+.home, .portfolio-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+  margin: 100px auto 100px auto;
+}
+
+.home, .portfolio-container-one {
+  width: 30%;
   height: auto;
 }
+
+.home, .portfolio-container-two {
+  width: 40%;
+  height: auto;
+  margin: 10px;
+}
+
+.home, .portfolio-container-three {
+  width: 50%;
+  height: auto;
+  margin: 10px;
+}
+
+.home, .portfolio-container-four {
+  width: 30%;
+  height: auto;
+  margin: 10px;
+}
+
 
 .home, .footer {
   background: #343239;
