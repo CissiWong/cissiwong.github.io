@@ -34,12 +34,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h4, h5, h6 {
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 p {
   color: #666564;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  letter-spacing: 2px;
 }
 
 a {

@@ -1,0 +1,9 @@
+.project, .project-wrapper {
+  padding: 10px;
+  margin: 10px;
+}
+
+.project, img {
+  height: 300px;
+  width: 400px;
+}

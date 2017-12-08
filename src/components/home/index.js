@@ -9,15 +9,34 @@ class Home extends React.Component {
       <div className="Home">
 
         <nav className="navigation">
-          <h4>navigation</h4>
+          <h6>navigation</h6>
         </nav>
 
         <header className="header">
-          <h1>Hello World!</h1>
+          <h1>Hello World</h1>
         </header>
 
         <section className="portfolio-container">
-          <Project />
+          <Project
+            title="Radio"
+            objective="fetching API's and setting state in react"
+            keyword="API, JavaScript, react"
+            image="images/radio.jpg" />
+          <Project
+            title="Clock"
+            objective="fetching API's and setting state in react"
+            keyword="API, JavaScript, react"
+            image="images/radio.jpg" />
+          <Project
+            title="FAQ"
+            objective="fetching API's and setting state in react"
+            keyword="API, JavaScript, react"
+            image="images/radio.jpg" />
+          <Project
+            title="Radio"
+            objective="fetching API's and setting state in react"
+            keyword="API, JavaScript, react"
+            image="images/radio.jpg" />
         </section>
 
         <footer className="footer">

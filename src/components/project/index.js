@@ -6,10 +6,14 @@ class Project extends React.Component {
   render() {
     return (
 
-      <div className="overlay">
-        <div className="project">
-          <h4>title</h4>
-          <p>text about the project</p>
+      <div className="project-wrapper">
+        <div className="project-image">
+          <img src={this.props.image} alt="" />
+        </div>
+        <div className="overlay">
+          <h3>{this.props.title}</h3>
+          <p>{this.props.objective}</p>
+          <p>{this.props.keyword}</p>
         </div>
       </div>
     )
