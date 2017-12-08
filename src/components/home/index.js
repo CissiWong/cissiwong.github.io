@@ -26,23 +26,23 @@ class Home extends React.Component {
           </div>
           <div className="portfolio-container-two">
             <Project
-              title="Clock"
-              objective="fetching API's and setting state in react"
-              keyword="API, JavaScript, react"
-              image="images/radio.jpg" />
+              title="FAQ"
+              objective="expanding the view by toggeling classes in JavaScript"
+              keyword="Html, CSS, JavaScript"
+              image="images/FAQ.png" />
           </div>
           <div className="portfolio-container-three">
             <Project
-              title="FAQ"
-              objective="fetching API's and setting state in react"
+              title="Clock"
+              objective="Creating a clock using react"
               keyword="API, JavaScript, react"
-              image="images/radio.jpg" />
+              image="images/clock.png" />
           </div>
           <div className="portfolio-container-four">
             <Project
               title="Christmas Calendar"
-              objective="fetching API's and setting state in react"
-              keyword="API, JavaScript, react"
+              objective="group project creating a Christmas Calendar for Kivra"
+              keyword="Html, CSS, JavaScript"
               image="images/christmas-calendar.png" />
           </div>
         </section>

@@ -4,6 +4,11 @@
   height: 100px;
 }
 
+.home, .header, h1 {
+  font-size: 5em;
+  font-weight: bolder;
+}
+
 .home, .navigation, h6 {
   justify-content: flex-end;
   align-items: flex-end;
@@ -29,24 +34,25 @@
 .home, .portfolio-container-one {
   width: 30%;
   height: auto;
+  margin: 30px;
 }
 
 .home, .portfolio-container-two {
   width: 40%;
   height: auto;
-  margin: 10px;
+  margin: 30px;
 }
 
 .home, .portfolio-container-three {
-  width: 50%;
+  width: 40%;
   height: auto;
-  margin: 10px;
+  margin: 30px;
 }
 
 .home, .portfolio-container-four {
   width: 30%;
   height: auto;
-  margin: 10px;
+  margin: 30px;
 }
 
 
