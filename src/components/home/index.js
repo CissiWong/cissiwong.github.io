@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.css"
 import Project from "../project"
+import Navigation from "../navigation"
 
 class Home extends React.Component {
 
@@ -9,7 +10,7 @@ class Home extends React.Component {
       <div className="Home">
 
         <nav className="navigation">
-          <h6>navigation</h6>
+          <Navigation />
         </nav>
 
         <header className="header">
