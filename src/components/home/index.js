@@ -44,7 +44,7 @@ class Home extends React.Component {
               title="Christmas Calendar"
               objective="group project creating a Christmas Calendar for Kivra"
               keyword="Html, CSS, JavaScript"
-              image="images/christmas-calendar.png" />
+              image="images/group-calendar.png" />
           </div>
         </section>
 
