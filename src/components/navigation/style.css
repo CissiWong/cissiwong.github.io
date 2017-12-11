@@ -1,19 +1,12 @@
-.Navigation a {
+
+.navigation {
   display: flex;
+  padding-top: 80px;
+  width: 100%;
+  height: 100px;
+}
+
+.navigation a {
   text-decoration: none;
   text-transform: uppercase;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
- .nav-one {
-
-}
-
- .nav-two {
-
-}
-
-.one, .two, .three, .four {
-  margin: 0 40px 0 40px;
 }
