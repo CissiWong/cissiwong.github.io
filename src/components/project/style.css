@@ -1,14 +1,16 @@
-.project, .project-wrapper {
-  width: 100%;
+.Project .project-wrapper {
+  width: 75%;
+
 }
 
-.project, img {
-  width: 100%;
-  height: auto;
+.Project img {
+  max-width: 300px;
+  max-height: 400px;
   background-size: contain;
-  position: relative;
-}
 
+  /*position: relative;*/
+}
+/*
 .project, .overlay {
   width: 100%;
   height: auto;
@@ -19,4 +21,4 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-}
+}*/

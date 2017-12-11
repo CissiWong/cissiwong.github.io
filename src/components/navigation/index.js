@@ -6,7 +6,7 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div className="navigation">
+      <div className="Navigation">
         <div className="nav-one">
           <Link className="one" to="/">Home</Link>
           <Link className="two" to="/work">Work</Link>

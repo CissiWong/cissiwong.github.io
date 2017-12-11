@@ -1,4 +1,5 @@
-.navigation, .navigation a {
+.Navigation a {
+  display: flex;
   text-decoration: none;
   text-transform: uppercase;
   justify-content: flex-end;
@@ -10,8 +11,6 @@
 }
 
  .nav-two {
-
-
 
 }
 
