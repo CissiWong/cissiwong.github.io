@@ -10,7 +10,8 @@ class Home extends React.Component {
       <div className="Home">
         <Navigation />
         <header className="header">
-          <h1>Hello World</h1>
+          <div className="title-one"><h1>Hello</h1></div>
+          <div className="title-two"><h1>World!</h1></div>
         </header>
 
         <section className="portfolio-wrapper">

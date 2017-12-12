@@ -1,4 +1,4 @@
-.Home .header, h1 {
+.Home .header h1 {
   font-size: 5em;
   font-weight: bolder;
 }
@@ -8,12 +8,48 @@
 }
 
 .Home .header {
-  background: #fbf9fb;
-  width: 100%;
   height: 500px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
 }
+
+/*Animation for header title*/
+
+.header .title-one {
+  position: relative;
+  transform: translateX(25%);
+  animation-name: slide-one;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes slide-one {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.header .title-two {
+  position: relative;
+  transform: translateX(25%);
+  animation-name: slide-two;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  transition-timing-function: ease-in-out;
+
+}
+
+@keyframes slide-two {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
 
 .Home .portfolio-wrapper {
   display: flex;
