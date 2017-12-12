@@ -1,0 +1,27 @@
+/*CSS for Footer component*/
+
+.Footer {
+  background: #343239;
+  padding: 100px;
+  width: 100%;
+}
+
+.Footer p {
+  color: #fff;
+}
+
+.Footer a {
+  color: #fff;
+  margin: 5px 0 5px 0;
+}
+
+.Footer h4 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.Footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,14 +1,14 @@
+.Home .header {
+  background: #f03d33;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
 .Home .header h1 {
+  color: #fff;
   font-size: 5em;
   font-weight: bolder;
-}
-
-.Home .navigation h6 {
-  margin: 0 40px 0 40px;
-}
-
-.Home .header {
-  height: 500px;
 }
 
 /*Animation for header title*/
@@ -38,7 +38,6 @@
   animation-duration: 4s;
   animation-iteration-count: 1;
   transition-timing-function: ease-in-out;
-
 }
 
 @keyframes slide-two {
@@ -49,6 +48,29 @@
     transform: translateX(25%);
   }
 }
+
+.Home .social-icons {
+  display: flex;
+  background-size: contain;
+  justify-content: flex-end;
+  align-content: flex-end;
+  margin: auto 50px 5px auto;
+}
+
+.Home .github img {
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+}
+
+.Home .linkedin img {
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  margin-left: 40px;
+  margin-right: 25px;
+}
+
 
 .Home .portfolio-wrapper {
   display: flex;
@@ -79,26 +101,4 @@
   width: 30%;
   height: auto;
   margin: 30px;
-}
-
-.home, .footer {
-  background: #343239;
-  padding: 100px;
-  width: 100%;
-}
-
-.home, .footer p {
-  color: #fff;
-}
-
-.home, .footer a {
-  color: #fff;
-}
-
-.home, .footer h4 {
-  color: #fff;
-  margin-top: 0;
-}
-
-.home, .social-media {
 }
