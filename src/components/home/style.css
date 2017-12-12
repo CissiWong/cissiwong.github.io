@@ -50,7 +50,6 @@
   }
 }
 
-
 .Home .portfolio-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -81,7 +80,6 @@
   height: auto;
   margin: 30px;
 }
-
 
 .home, .footer {
   background: #343239;
