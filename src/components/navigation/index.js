@@ -7,15 +7,20 @@ class Navigation extends React.Component {
   render() {
     return (
       <div className="navigation">
-        <div className="nav-one">
-          <Link to="/">Home</Link>
-          <Link to="/work">Work</Link>
-        </div>
 
-        <div className="nav-two">
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-        </div>
+        <label className="hamburger-mobile" htmlFor="hamburger-menu">
+          <div className="bars" id="bar-one" />
+          <div className="bars" id="bar-two" />
+          <div className="bars" id="bar-three" />
+        </label>
+
+        <input className="hamburger-checkbox" id="hamburger-menu" type="checkbox" />
+        <ul className="mobile-menu">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/work">Work</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+        </ul>
       </div>
     )
   }

@@ -1,12 +1,81 @@
 
 .navigation {
   display: flex;
-  padding-top: 80px;
   width: 100%;
-  height: 100px;
 }
 
 .navigation a {
   text-decoration: none;
   text-transform: uppercase;
+}
+
+
+.mobile-menu {
+  display: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  background: #fbf9fb;
+  width: 60%;
+  position: absolute;
+  left: -60%;
+  transition: all 0.9s ease-in-out;
+}
+
+.mobile-menu li {
+  color: #fbf9fb;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 0;
+  list-style: none;
+}
+
+.hamburger-mobile {
+  width: 75px;
+  height: 75px;
+  background: #fbf9fb;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+
+.hamburger-checkbox {
+  display: none;
+}
+
+.hamburger-checkbox:checked + .mobile-menu {
+  left: 0;
+  margin-left: 150px;
+}
+
+#bar-one {
+  background: black;
+  width: 35px;
+  height: 5px;
+  position: absolute;
+  top: 47px;
+  right: 0;
+  bottom: 0;
+  left: 20px;
+  z-index: 1;
+}
+
+#bar-two {
+  background: black;
+  width: 35px;
+  height: 5px;
+  top: 35px;
+  left: 20px;
+  position: absolute;
+  z-index: 1;
+  }
+
+#bar-three {
+  background: black;
+  width: 35px;
+  height: 5px;
+  top: 23px;
+  left: 20px;
+  position: absolute;
+  z-index: 1;
 }
