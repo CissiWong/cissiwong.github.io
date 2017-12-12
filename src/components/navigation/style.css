@@ -5,8 +5,10 @@
 }
 
 .navigation a {
+  font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -37,6 +39,7 @@
   display: block;
   cursor: pointer;
   position: relative;
+  z-index: 1
 }
 
 .hamburger-checkbox {
@@ -48,7 +51,7 @@
   margin-left: 150px;
 }
 
-#bar-one {
+.bar-one {
   background: black;
   width: 35px;
   height: 5px;
@@ -60,7 +63,7 @@
   z-index: 1;
 }
 
-#bar-two {
+.bar-two {
   background: black;
   width: 35px;
   height: 5px;
@@ -70,7 +73,7 @@
   z-index: 1;
   }
 
-#bar-three {
+.bar-three {
   background: black;
   width: 35px;
   height: 5px;

@@ -9,9 +9,9 @@ class Navigation extends React.Component {
       <div className="navigation">
 
         <label className="hamburger-mobile" htmlFor="hamburger-menu">
-          <div className="bars" id="bar-one" />
-          <div className="bars" id="bar-two" />
-          <div className="bars" id="bar-three" />
+          <div className="bar-one" />
+          <div className="bar-two" />
+          <div className="bar-three" />
         </label>
 
         <input className="hamburger-checkbox" id="hamburger-menu" type="checkbox" />

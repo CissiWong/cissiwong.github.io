@@ -11,7 +11,10 @@ body {
 /*mobile first font size */
 
 h1 {
-  font-size: 2em;
+  font-size: 1.7em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -27,8 +30,8 @@ h4 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #343239;
-  font-family: 'Montserrat', sans-serif;
+  color: #2d2d2d;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
 }
 
@@ -42,7 +45,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   letter-spacing: 2px;
-  
+
 }
 
 a {
