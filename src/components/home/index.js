@@ -9,8 +9,8 @@ class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-        <Navigation />
         <header className="header">
+          <Navigation />
           <div className="title-one"><h1>Hello</h1></div>
           <div className="title-two"><h1>World!</h1></div>
           <div className="social-icons">

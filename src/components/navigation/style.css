@@ -6,6 +6,7 @@
 }
 
 .navigation a {
+  color: #fff;
   font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
@@ -18,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   padding: 0;
-  background: #fbf9fb;
   width: 60%;
   position: absolute;
   left: -60%;
@@ -26,21 +26,21 @@
 }
 
 .mobile-menu li {
-  color: #fbf9fb;
   text-decoration: none;
   padding: 10px;
   margin-top: 0;
   list-style: none;
 }
 
+
 .hamburger-mobile {
+  background: #;
   width: 75px;
   height: 75px;
-  background: #fbf9fb;
   display: block;
   cursor: pointer;
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 .hamburger-checkbox {
@@ -53,7 +53,7 @@
 }
 
 .bar-one {
-  background: black;
+  background: #fff;
   width: 35px;
   height: 5px;
   position: absolute;
@@ -65,17 +65,17 @@
 }
 
 .bar-two {
-  background: black;
+  background: #fff;
   width: 35px;
   height: 5px;
   top: 35px;
   left: 20px;
-  position: absolute;
+  position: absolute ;
   z-index: 1;
   }
 
 .bar-three {
-  background: black;
+  background: #fff;
   width: 35px;
   height: 5px;
   top: 23px;
