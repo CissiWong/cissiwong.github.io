@@ -1,7 +1,6 @@
 import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
 
-import Navigation from "./navigation"
 import Home from "./home"
 import About from "./about"
 import ProjectView from "./project-view"

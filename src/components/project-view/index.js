@@ -1,12 +1,13 @@
 import React from "react"
 import "./style.css"
+import Project from "../project"
 
 class ProjectView extends React.Component {
 
   render() {
     return (
       <div className="pw-wrapper">
-        <header></header>
+        <header />
         <section className="pw-text">
           <h6>Header</h6>
           <p>ingress</p>
