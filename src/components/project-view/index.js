@@ -1,6 +1,5 @@
 import React from "react"
 import "./style.css"
-import Project from "../project"
 
 class ProjectView extends React.Component {
 
@@ -13,11 +12,7 @@ class ProjectView extends React.Component {
           <p>ingress</p>
           <p>Lorem impsum...</p>
         </section>
-        <section className="pw-images">
-          <img />
-          <img />
-          <img />
-        </section>
+        <section className="pw-images" />
       </div>
     )
   }

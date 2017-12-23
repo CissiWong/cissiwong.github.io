@@ -1,30 +1,30 @@
 .Home .portfolio-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: minmax(300px, 300px);
+  grid-gap: 20px;
 }
 
 .Home .portfolio-container-one {
-  width: 30%;
-  height: auto;
-  margin: 30px;
+ background-size: contain;
 }
 
 .Home .portfolio-container-two {
-  width: 40%;
-  height: auto;
-  margin: 30px;
+
 }
 
 .Home .portfolio-container-three {
-  width: 40%;
-  height: auto;
-  margin: 30px;
+
 }
 
 .home, .portfolio-container-four {
-  width: 30%;
-  height: auto;
-  margin: 30px;
+
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+.wide {
+  grid-column: span 2;
 }

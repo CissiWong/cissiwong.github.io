@@ -11,14 +11,14 @@ class Home extends React.Component {
       <div className="Home">
         <Header />
         <section className="portfolio-wrapper">
-          <div className="portfolio-container-one">
+          <div className="portfolio-container-one wide" >
             <Project
               title="Radio"
               objective="fetching API's and setting state in react"
               keyword="API, JavaScript, react"
               image="images/radio.jpg" />
           </div>
-          <div className="portfolio-container-two">
+          <div className="portfolio-container-two tall wide">
             <Project
               title="Christmas Calendar"
               objective="group project creating a Christmas Calendar for Kivra"
@@ -26,7 +26,7 @@ class Home extends React.Component {
               image="images/group-calendar.png" />
           </div>
 
-          <div className="portfolio-container-three">
+          <div className="portfolio-container-three wide">
             <Project
               title="Clock"
               objective="Creating a clock using react"
@@ -34,14 +34,13 @@ class Home extends React.Component {
               image="images/clock.png" />
           </div>
 
-          <div className="portfolio-container-four">
+          <div className="portfolio-container-four wide">
             <Project
               title="FAQ"
               objective="expanding the view by toggeling classes in JavaScript"
               keyword="Html, CSS, JavaScript"
               image="images/FAQ.png" />
           </div>
-
         </section>
         <Footer />
       </div>
