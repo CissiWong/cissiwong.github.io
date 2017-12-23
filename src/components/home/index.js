@@ -11,7 +11,7 @@ class Home extends React.Component {
       <div className="Home">
         <Header />
         <section className="portfolio-wrapper">
-          <div className="portfolio-container-one wide" >
+          <div className="portfolio-container-one wide">
             <Project
               title="Radio"
               objective="fetching API's and setting state in react"
