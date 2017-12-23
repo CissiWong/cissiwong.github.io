@@ -8,7 +8,7 @@ export default class Header extends React.Component {
       <header className="header">
         <Navigation />
         <div className="title-one"><h1>Hello</h1></div>
-        <div className="title-two"><h1>World!</h1></div>
+        <div className="title-two"><h1>World</h1></div>
         <div className="social-icons">
           <a className="github" href="https://github.com/CissiWong" alt="link to github">
             <img src="./icons/github-logo.svg" alt="github logo" />

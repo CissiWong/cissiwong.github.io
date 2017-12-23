@@ -7,7 +7,7 @@
 
 .navigation a {
   color: #fff;
-  font-size: 13px;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
@@ -17,11 +17,11 @@
 .mobile-menu {
   display: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0;
-  width: 60%;
+  width: 75%;
   position: absolute;
-  left: -60%;
+  top: -100%;
   transition: all 0.9s ease-in-out;
 }
 
@@ -48,8 +48,8 @@
 }
 
 .hamburger-checkbox:checked + .mobile-menu {
-  left: 0;
-  margin-left: 150px;
+  top: 0;
+  margin-top: 40px;
 }
 
 .bar-one {
