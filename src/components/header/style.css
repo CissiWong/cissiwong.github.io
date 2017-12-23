@@ -1,5 +1,9 @@
 .header {
-  background: url("/images/forest.jpg");
+  background-image: url("/images/plant.jpeg");
+  object-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: auto;
   width: 100%;
   padding: 20px 0 20px 0;
@@ -12,7 +16,7 @@
 }
 
 /*Animation for header title*/
-
+/*
 .header .title-one {
   position: relative;
   transform: translateX(25%);
@@ -47,7 +51,7 @@
   100% {
     transform: translateX(25%);
   }
-}
+} */
 
 .social-icons {
   display: flex;
