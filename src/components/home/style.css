@@ -37,7 +37,7 @@
 .three {
   background-image: url("/images/clock.png");
   object-fit: fill;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   object-position: center;
 }
@@ -45,7 +45,7 @@
 .four {
   background-image: url("/images/FAQ.png");
   object-fit: fill;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 
 }
@@ -53,7 +53,7 @@
 .five {
   background-image: url("/images/radio.jpg");
   object-fit: fill;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
