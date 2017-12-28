@@ -62,3 +62,9 @@
    -moz-transition: opacity .8s ease-in-out;
    -webkit-transition: opacity .8s ease-in-out;
    }
+
+@media (max-width: 320px) {
+    .mobile-menu {
+      flex-direction: column;
+    }
+   }

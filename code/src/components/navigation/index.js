@@ -6,7 +6,7 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div className="navigation">
+      <div className="navigation" >
         <input className="hamburger-checkbox" id="hamburger-menu" type="checkbox" />
         <label className="hamburger-mobile" htmlFor="hamburger-menu">
           <div className="bar bar-one" />

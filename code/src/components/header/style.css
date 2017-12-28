@@ -1,21 +1,11 @@
 .header {
-  width: 100%;
   background-image: url("/images/plant.jpeg");
-  object-position: center;
-  object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
   width: 100%;
   padding: 40px 0 40px 25px;
   position: relative;
-}
-
-.header h1 {
-  color: #fff;
-  font-size: 5em;
-  font-weight: bolder;
-  margin-left: 100px;
 }
 
 .logo {
@@ -41,5 +31,15 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    width: 75%;
+    height: 75%;
+  }
+  .header {
+
   }
 }

@@ -46,3 +46,11 @@
   width: 40px;
   background-size: contain;
 }
+
+
+@media (max-width: 320px) {
+    .contact {
+      flex-direction: column;
+      text-align: center;
+    }
+   }

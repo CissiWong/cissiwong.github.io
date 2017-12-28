@@ -17,7 +17,7 @@
 
 .one.image.wide {
   background-color: blue;
-  /* background-image: url("/images/CSS_grid.png"); */
+  background-image: url("/images/CSS_grid.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
