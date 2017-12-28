@@ -6,12 +6,10 @@ export default class Header extends React.Component {
 
   render() {
     return (
-      <div className="header-overlay">
-        <header className="header">
-          <span className="logo" />
-          <Navigation />
-        </header>
-      </div>
+      <header className="header">
+        <span className="logo" />
+        <Navigation />
+      </header>
     )
   }
 }

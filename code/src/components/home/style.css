@@ -9,10 +9,10 @@
   margin: 200px auto 200px auto;
   padding: 20px;
   display: grid;
-
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-columns: repeat(autofill minmax(200px, 1fr));
   grid-auto-rows: minmax(200px, 200px);
   grid-gap: 20px;
+  overflow: hidden;
 }
 
 .one.image.wide {
@@ -24,28 +24,28 @@
 
 .two.image.tall {
   background-color: blue;
-  /* background-image: url("/images/tictail_example_shop.png"); */
-  background-size: cover;
+  background-image: url("/images/tictail_example_shop.png");
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
 .three.image {
   background-color: blue;
-  /* background-image: url("/images/clock.png"); */
+  background-image: url("/images/FAQ.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .four.image {
   background-color: blue;
-  /* background-image: url("/images/FAQ.png"); */
+  background-image: url("/images/clock.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.five.image {
+.five.image.wide {
   background-color: blue;
-  /* background-image: url("/images/radio.jpg"); */
+  background-image: url("/images/radio.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -60,4 +60,15 @@
 
 .wide {
   grid-column: span 2;
+}
+
+
+@media (max-width: 320px) {
+  .six {
+    display: none;
+  }
+  .portfolio-wrapper {
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+  }
 }
