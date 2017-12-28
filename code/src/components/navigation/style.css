@@ -6,38 +6,34 @@
 }
 
 .navigation a {
-  color: #fff;
-  font-size: 18px;
+  color: black;
+  font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
 }
 
-.mobile-menu {
-  display: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 0;
-  width: 75%;
-  position: absolute;
-  top: -100%;
-  transition: all 0.9s ease-in-out;
+.bar {
+  width: 25px;
+  height: 4px;
+  background-color: black;
+  margin: 0px 0 3px 20px;
 }
 
 .mobile-menu li {
   text-decoration: none;
-  padding: 10px;
-  margin-top: 0;
+  padding: 0 10px 10px 10px;
   list-style: none;
 }
 
-.hamburger-mobile {
-  width: 75px;
-  height: 75px;
-  display: block;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
+.mobile-menu {
+  margin: 0 auto auto 55px;
+  opacity: 0;
+  display: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  position: absolute;
 }
 
 .hamburger-checkbox {
@@ -46,6 +42,7 @@
 
 .hamburger-checkbox:checked + .hamburger-mobile .bar-one {
   transform: rotate(-45deg) translate(-6px, 5px);
+  transition: all 0.6s ease-in-out;
 }
 
 .hamburger-checkbox:checked + .hamburger-mobile .bar-two {
@@ -53,51 +50,15 @@
 }
 
 .hamburger-checkbox:checked + .hamburger-mobile .bar-three {
-  transform: rotate(45deg) translate(-5px, -5px) ;
+  transform: rotate(45deg) translate(-5px, -5px);
+  transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
 }
 
 .hamburger-checkbox:checked ~ .mobile-menu {
-  top: 0;
-  margin-top: 40px;
-}
-
-.bar {
-  width: 25px;
-  height: 4px;
-  background-color: black;
-  margin: 0 0 3px 5px;
-}
-
-
-/*
-.bar-one {
-  background: #fff;
-  width: 35px;
-  height: 5px;
-  position: absolute;
-  top: 47px;
-  right: 0;
-  bottom: 0;
-  left: 20px;
-  z-index: 1;
-}
-
-.bar-two {
-  background: #fff;
-  width: 35px;
-  height: 5px;
-  top: 35px;
-  left: 20px;
-  position: absolute ;
-  z-index: 1;
-  }
-
-.bar-three {
-  background: #fff;
-  width: 35px;
-  height: 5px;
-  top: 23px;
-  left: 20px;
-  position: absolute;
-  z-index: 1;
-} */
+   opacity: 1;
+   transition: opacity .8s ease-in-out;
+   -moz-transition: opacity .8s ease-in-out;
+   -webkit-transition: opacity .8s ease-in-out;
+   }

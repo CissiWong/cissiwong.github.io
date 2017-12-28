@@ -1,12 +1,14 @@
 .header {
+  width: 100%;
   background-image: url("/images/plant.jpeg");
   object-position: center;
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
+  height: 500px;
   width: 100%;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 25px;
+  position: relative;
 }
 
 .header h1 {
@@ -16,62 +18,28 @@
   margin-left: 100px;
 }
 
-/*Animation for header title*/
-/*
-.header .title-one {
-  position: relative;
-  transform: translateX(25%);
-  animation-name: slide-one;
-  animation-duration: 4s;
-  animation-iteration-count: 1;
-  transition-timing-function: ease-in-out;
+.logo {
+  opacity: 1;
+  height: 400px;
+  width: 600px;
+  background-image: url("/images/ceciliawong.png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+  top: 18%;
+  left: 10%;
+  -webkit-animation: logo 2s ease-in;
+  -moz-animation: logo 2s ease-in;
+  -o-animation: logo 2s ease-in;
+
 }
 
-@keyframes slide-one {
+@keyframes logo {
   0% {
-    transform: translateX(0);
+    opacity: 0;
   }
   100% {
-    transform: translateX(25%);
+    opacity: 1;
   }
-}
-
-.header .title-two {
-  position: relative;
-  transform: translateX(25%);
-  animation-name: slide-two;
-  animation-duration: 4s;
-  animation-iteration-count: 1;
-  transition-timing-function: ease-in-out;
-}
-
-@keyframes slide-two {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(25%);
-  }
-} */
-
-.social-icons {
-  display: flex;
-  background-size: contain;
-  justify-content: flex-end;
-  align-content: flex-end;
-  margin: auto 50px 5px auto;
-}
-
-.github img {
-  height: 40px;
-  width: 40px;
-  background-size: contain;
-}
-
-.linkedin img {
-  height: 40px;
-  width: 40px;
-  background-size: contain;
-  margin-left: 40px;
-  margin-right: 25px;
 }
