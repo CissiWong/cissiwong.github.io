@@ -14,10 +14,10 @@ class Home extends React.Component {
 
           <div className="one image wide" />
           <div className="two image tall" />
-          <div className="three image wide" />
+          <div className="three image" />
           <div className="four image" />
           <div className="five image wide" />
-
+          <div className="six image" />
         </main>
         <Footer />
       </div>
