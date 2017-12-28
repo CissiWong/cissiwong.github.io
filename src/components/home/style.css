@@ -6,25 +6,30 @@
 .Home .portfolio-wrapper {
   width: 80%;
   height: auto;
-  margin: 100px auto 100px auto;
+  margin: 200px auto 200px auto;
   padding: 10px;
   background-color: grey;
-  justify-content: center;
-  align-content: center;
+  position: relative;
+  overflow: hidden;
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, 1fr));
   grid-auto-rows: minmax(200px, 200px);
   grid-gap: 10px;
 }
-
-
 .one {
-  background-image: url("/images/CSS_grid.png");
-  object-fit: fill;
-  object-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  grid-column: 1;
+  background-color: red;
 }
+/*
+.one .image-one {
+  grid-column: 1;
+  background-image: url("/images/CSS_grid.png");
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+} */
 
 .two {
   background-image: url("/images/tictail_example_shop.png");
