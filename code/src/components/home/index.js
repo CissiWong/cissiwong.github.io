@@ -19,11 +19,36 @@ class Home extends React.Component {
               </div>
             </div>
 
-            <div className="two" />
-            <div className="three" />
-            <div className="four" />
-            <div className="five" />
-            <div className="six" />
+            <div className="two hoverbox">
+              <div className="two" />
+              <div className="text">
+                <h1>API & React</h1>
+              </div>
+            </div>
+            <div className="three hoverbox">
+              <div className="three" />
+              <div className="text">
+                <h1>JavaScript</h1>
+              </div>
+            </div>
+            <div className="four hoverbox">
+              <div className="four" />
+              <div className="text">
+                <h1>State in react</h1>
+              </div>
+            </div>
+            <div className="five hoverbox">
+              <div className="five" />
+              <div className="text">
+                <h1>API</h1>
+              </div>
+            </div>
+            <div className="five hoverbox">
+              <div className="five" />
+              <div className="text">
+                <h1>API</h1>
+              </div>
+            </div>
           </main>
         </section>
 

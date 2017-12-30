@@ -1,21 +1,15 @@
-.Home {
-  box-sizing: border-box;
-}
-
 .Home .portfolio {
-  width: 100%;
-  padding: 20px;
   display: flex;
   align-content: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .Home .portfolio-wrapper {
   height: auto;
+  width: 100%;
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-rows: minmax(150px, 150px);
   grid-gap: 20px;
 }
 
@@ -28,6 +22,7 @@
 }
 
 .one {
+  background-color: blue;
   background-image: url("/images/CSS_grid.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,24 +34,47 @@
   display: none;
   position: absolute;
   background-color: white;
-  height: 100%;
-  width: 100%;
+  height: 92%;
+  width: 92%;
   cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto
 }
 
 .text h1 {
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-
 .two {
   background-color: blue;
   background-image: url("/images/tictail_example_shop.png");
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: span 2;
+  grid-row: span 4;
+}
+
+.two.hoverbox {
+  position: relative;
+}
+
+.two.hoverbox:hover .text{
+  display: block;
+}
+
+.three.hoverbox {
+  position: relative;
+}
+
+.three.hoverbox:hover .text{
+  display: block;
 }
 
 .three {
@@ -64,6 +82,15 @@
   background-image: url("/images/FAQ.png");
   background-size: contain;
   background-repeat: no-repeat;
+  grid-column: span 2;
+}
+
+.four.hoverbox {
+  position: relative;
+}
+
+.four.hoverbox:hover .text{
+  display: block;
 }
 
 .four {
@@ -71,6 +98,15 @@
   background-image: url("/images/clock.png");
   background-size: contain;
   background-repeat: no-repeat;
+  grid-column: span 2;
+}
+
+.five.hoverbox {
+  position: relative;
+}
+
+.five.hoverbox:hover .text{
+  display: block;
 }
 
 .five {
@@ -78,25 +114,13 @@
   background-image: url("/images/radio.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-.six {
-  background-color: blue;
-}
-
-.tall {
-  grid-row: span 2;
-}
-
-.wide {
   grid-column: span 2;
 }
 
+@media (max-width: 620px) {
 
-@media (max-width: 320px) {
-
-  .portfolio {
-    width: 75%;
-    flex-direction: column;
+  .Home .portfolio-wrapper {
+    grid-column: 1;
+    grid-rows: auto;
   }
 }
