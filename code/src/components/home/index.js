@@ -1,5 +1,4 @@
 import React from "react"
-
 import "./style.css"
 import Header from "../header"
 import Footer from "../footer"
@@ -10,15 +9,24 @@ class Home extends React.Component {
     return (
       <div className="Home">
         <Header />
-        <main className="portfolio-wrapper">
+        <section className="portfolio">
+          <main className="portfolio-wrapper">
+            <div className="one hoverbox">
+              <div className="one">
+                <div className="text">
+                  <h1>CSS Grid</h1>
+                </div>
+              </div>
+            </div>
 
-          <div className="one image wide" />
-          <div className="two image tall" />
-          <div className="three image" />
-          <div className="four image" />
-          <div className="five image wide" />
-          <div className="six image" />
-        </main>
+            <div className="two" />
+            <div className="three" />
+            <div className="four" />
+            <div className="five" />
+            <div className="six" />
+          </main>
+        </section>
+
         <Footer />
       </div>
     )

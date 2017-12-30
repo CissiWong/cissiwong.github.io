@@ -2,16 +2,16 @@
   background-image: url("/images/plant.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   height: 500px;
   width: 100%;
   padding: 40px 0 40px 25px;
-  position: relative;
 }
 
 .logo {
   opacity: 1;
   height: 400px;
-  width: 600px;
+  width: 60%;
   background-image: url("/images/ceciliawong.png");
   position: absolute;
   background-size: contain;

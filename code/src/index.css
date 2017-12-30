@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fbf9fb;
+  position: relative;
 }
 
 /*mobile first font size */
@@ -15,6 +16,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+  margin: 0;
 }
 
 h2 {
