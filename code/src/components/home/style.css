@@ -116,7 +116,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   grid-column: span 2;
-  grid-row: span 2;  
+  grid-row: span 2;
 }
 
 @media (max-width: 620px) {
