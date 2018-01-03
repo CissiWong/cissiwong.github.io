@@ -1,7 +1,7 @@
 import React from "react"
+import NewNav from "components/new-navigation"
 import "./style.css"
 // import Navigation from "../navigation"
-import NewNav from "../new_navigation"
 
 export default class Header extends React.Component {
 
