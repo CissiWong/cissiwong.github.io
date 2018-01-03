@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.css"
-import Navigation from "../navigation"
+// import Navigation from "../navigation"
+import NewNav from "../new_navigation"
 
 export default class Header extends React.Component {
 
@@ -8,7 +9,9 @@ export default class Header extends React.Component {
     return (
       <header className="header">
         <span className="logo" />
-        <Navigation />
+        <NewNav />
+
+        {/* <Navigation /> */}
       </header>
     )
   }

@@ -1,9 +1,9 @@
 export default [
   {
     image: "",
-    title: "",
+    title: "CSS Grid",
     id: "",
-    language: "",
+    language: "HTML5, CSS3",
     description: "",
     link: ""
   },
