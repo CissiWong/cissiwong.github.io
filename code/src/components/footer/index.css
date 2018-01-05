@@ -47,7 +47,6 @@
   background-size: contain;
 }
 
-
 @media (max-width: 320px) {
     .contact {
       flex-direction: column;

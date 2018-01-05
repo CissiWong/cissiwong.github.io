@@ -1,62 +1,27 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   padding: 0;
-  background: #fbf9fb;
-  position: relative;
-}
-
-/*mobile first font size */
-
-h1 {
-  font-size: 1.7em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.625em;
-}
-
-h3 {
-  font-size: 1.375em;
-}
-
-h4 {
-  font-size: 1.125em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #2d2d2d;
-  font-family: 'Raleway', sans-serif;
-  font-weight: normal;
-}
-
-h3, h4, h5, h6 {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-p {
-  color: #666564;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  letter-spacing: 2px;
-
 }
 
 a {
-  color: #666564;
-  text-decoration: underline;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
 }
 
 a:hover {
   color: #f03d33;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }

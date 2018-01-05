@@ -2,6 +2,7 @@ import React from "react"
 import "./style.css"
 import Header from "../header"
 import Footer from "../footer"
+import project_array from "../project_array"
 
 class Home extends React.Component {
 
