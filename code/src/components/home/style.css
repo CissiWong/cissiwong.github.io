@@ -8,11 +8,8 @@
   height: auto;
   width: 100%;
   display: grid;
-
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: minmax(200px, 200px);
-
-
 }
 
 .one.hoverbox {
@@ -54,7 +51,7 @@
   transform: translate(-50%, -50%);
 }
 
-.two {
+/* .two {
   background-color: blue;
   background-image: url("/images/tictail_example_shop.png");
   background-repeat: no-repeat;
@@ -128,4 +125,4 @@
     grid-column: 1;
     grid-rows: auto;
   }
-}
+} */

@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom"
 
 import Home from "./home"
 import About from "./about"
-import ProjectView from "./project-view"
+// import ProjectPreview from "./project-preview"
 import Project from "./project"
 
 class App extends React.Component {
@@ -14,7 +14,7 @@ class App extends React.Component {
         <div>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/work" component={ProjectView} />
+          {/* <Route path="/work" component={ProjectView} /> */}
           <Route path="/projects/:id" component={Project} />
         </div>
       </BrowserRouter>
