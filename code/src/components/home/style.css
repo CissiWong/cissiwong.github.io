@@ -8,8 +8,11 @@
   height: auto;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-auto-rows: minmax(150px, 150px);
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, 200px);
+
+
 }
 
 .one.hoverbox {
@@ -25,7 +28,7 @@
   background-image: url("/images/CSS_grid.png");
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column: span 4;
+  grid-column: span 2;
   grid-row: span 2;
 }
 
@@ -57,7 +60,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   grid-column: span 2;
-  grid-row: span 4;
+  grid-row: span 2;
 }
 
 .two.hoverbox {
