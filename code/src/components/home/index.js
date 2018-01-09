@@ -1,7 +1,11 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 import Header from "../header"
+import Project from "../project"
 import Footer from "../footer"
+
+const projectsJson = require("../projects.json")
 
 class Home extends React.Component {
 
@@ -11,6 +15,7 @@ class Home extends React.Component {
         <Header />
         <section className="portfolio">
           <main className="portfolio-wrapper">
+
             <div className="one hoverbox">
               <div className="one">
                 <div className="text">
@@ -18,13 +23,13 @@ class Home extends React.Component {
                 </div>
               </div>
             </div>
-
             <div className="two hoverbox">
               <div className="two" />
               <div className="text">
-                <h1>API & React</h1>
+                <h1>react</h1>
               </div>
             </div>
+
             <div className="three hoverbox">
               <div className="three" />
               <div className="text">
