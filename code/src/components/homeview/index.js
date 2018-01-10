@@ -6,7 +6,7 @@ import Footer from "../footer"
 
 const projectsJson = require("../projects.json")
 
-class Home extends React.Component {
+class HomeView extends React.Component {
 
   render() {
     return (
@@ -32,4 +32,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home
+export default HomeView

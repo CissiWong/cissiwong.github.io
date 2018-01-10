@@ -3,7 +3,7 @@ import "./style.css"
 
 const projectsJson = require("../projects.json")
 
-export default class Project extends React.Component {
+export default class ProjectView extends React.Component {
 
   constructor(props) {
     super(props)
@@ -12,7 +12,8 @@ export default class Project extends React.Component {
     }
   }
   componentDidMount() {
-    const project = projectsJson.find(p => (p.id === this.props.match.params.id))
+    console.log(projectsJson)
+    const project = projectsJson.projects.find(p => (p.id === this.props.match.params.id))
     // const project = projects.find((p) => {
     //   return p.id === id
     // })
