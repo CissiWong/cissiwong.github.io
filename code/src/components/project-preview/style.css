@@ -37,3 +37,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.project-container a {
+  width: 100%;
+  height: 400px;
+}

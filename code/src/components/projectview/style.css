@@ -1,0 +1,33 @@
+.project-view-container {
+}
+
+.project-view-container header {
+  height: 100px;
+  width: auto;
+  padding: 40px 0 40px 25px;
+}
+
+.project-view-wrapper {
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: minmax(400px, 400px);
+  grid-gap: 20px;
+}
+
+.project.view-description {
+  width: 50%;
+  height: 400px;
+}
+
+.image-box {
+  height: 400px;
+  background-color: #e3e1e3;
+}
+
+.project-view-image {
+  width: auto;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
