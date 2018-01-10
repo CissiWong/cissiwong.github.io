@@ -1,6 +1,6 @@
 {
 	"projects": [{
-			"image": "",
+			"image": "/images/CSS_grid.png",
 			"title": "CSS Grid",
 			"id": "grid",
 			"language": "HTML5, CSS3",
@@ -8,7 +8,7 @@
 			"link": "https://cissiwong.github.io/assignment-css-grid/"
 		},
 		{
-			"image": "",
+			"image": "/images/clock-wht.png",
 			"title": "Clock",
 			"id": "clock",
 			"language": "HTML, CSS, JavaScript with React",
@@ -16,7 +16,7 @@
 			"link": "https://cissiwong.github.io/assignment-clock/"
 		},
 		{
-			"image": "",
+			"image": "/images/radio.png",
 			"title": "Sveriges Radio",
 			"id": "radio",
 			"language": "HTML, CSS, JavaScript with React",

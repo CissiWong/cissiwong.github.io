@@ -1,0 +1,53 @@
+
+.project-container {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, 200px);
+  grid-gap: 20px;
+  grid-column: span 2;
+  grid-row: span 2;
+  position: relative;
+}
+
+.portfolio-wrapper {
+  height: auto;
+  width: 100%;
+}
+
+.project-container, image {
+  max-width: 400px;
+  max-height: 300px;
+  object-position: center;
+  object-fit: contain;
+}
+
+.one.hoverbox {
+  position: absolute;
+}
+
+.one.hoverbox:hover .text{
+  display: block;
+}
+
+.text {
+  display: none;
+  position: absolute;
+  background-color: white;
+  height: 92%;
+  width: 92%;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto
+}
+
+.text h1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
