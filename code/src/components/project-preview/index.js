@@ -12,10 +12,10 @@ class ProjectPreview extends React.Component {
           <div className="one hoverbox">
             <img src={this.props.image} alt="" />
             {/* <div className="one"> */}
-              <div className="text">
-                <h1>{this.props.title}</h1>
-              </div>
+            <div className="text">
+              <h1>{this.props.title}</h1>
             </div>
+          </div>
           {/* </div> */}
         </Link>
       </div>
