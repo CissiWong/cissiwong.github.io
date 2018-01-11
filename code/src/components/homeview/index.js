@@ -21,7 +21,8 @@ class HomeView extends React.Component {
                 language={item.language}
                 description={item.description}
                 link={item.link}
-                image={item.image} />
+                image={item.image}
+                repository={item.repository} />
             })}
           </main>
         </section>
