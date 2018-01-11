@@ -33,7 +33,7 @@ export default class ProjectView extends React.Component {
         <header>
           <Navigation />
         </header>
-        <div className="project-view-wrapper" >
+        <main className="project-view-wrapper" >
           <div className="project-view-description">
             <h1>{this.state.project.title}</h1>
             <p>{this.state.project.description}</p>
@@ -43,7 +43,7 @@ export default class ProjectView extends React.Component {
               className="project-view-image"
               style={{ backgroundImage: `url(${this.state.project.image})` }} />
           </div>
-        </div>
+        </main>
         <Footer />
       </section>
     )
