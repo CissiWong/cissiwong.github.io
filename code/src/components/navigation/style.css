@@ -66,5 +66,6 @@
 @media (max-width: 320px) {
     .mobile-menu {
       flex-direction: column;
+      line-height: 1;
     }
    }
