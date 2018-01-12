@@ -24,16 +24,16 @@ class About extends React.Component {
               <br /> I am currently enrolled in a bootcamp by the pop-up school Technigo,
               studying JavaScript and React and aspiring to become a front end developer.
             </p>
-            <a
+            {/* <a
               className="github-link"
               href="https://github.com/CissiWong"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"> */}
               <img
                 className="github-logo"
                 src={gitlogo}
                 alt="" />
-            </a>
+            {/* </a> */}
           </div>
           <div className="img-wrapper">
             <img
