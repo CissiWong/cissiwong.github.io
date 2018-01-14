@@ -61,11 +61,21 @@
    transition: opacity .8s ease-in-out;
    -moz-transition: opacity .8s ease-in-out;
    -webkit-transition: opacity .8s ease-in-out;
-   }
+}
 
-@media (max-width: 320px) {
+label {
+  margin: 0;
+}
+
+
+@media (max-width: 620px) {
     .mobile-menu {
-      flex-direction: column;
+      flex-direction: row;
       line-height: 1;
+      width: 80%;
+    }
+    .navigation {
+      width: 80%;
+      margin-right: 0;
     }
    }

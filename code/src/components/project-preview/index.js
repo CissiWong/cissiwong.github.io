@@ -7,7 +7,9 @@ class ProjectPreview extends React.Component {
 
   render() {
     return (
-      <div className="project-container" style={{ backgroundImage: `url(${this.props.image})` }}>
+      <div
+        className="project-container"
+        style={{ backgroundImage: `url(${this.props.image})` }}>
         <Link to={`/projects/${this.props.url}`}>
           <div className="hoverbox">
             <div className="text">

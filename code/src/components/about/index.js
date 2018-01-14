@@ -11,7 +11,7 @@ class About extends React.Component {
   render() {
     return (
       <div className="about-container">
-        <header>
+        <header className="about-header">
           <Navigation />
         </header>
         <div className="about-wrapper">

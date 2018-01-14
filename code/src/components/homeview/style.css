@@ -27,4 +27,8 @@
     width: 100%;
     margin: 0;
   }
+  .portfolio-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(200px, 200px);
+  }
 }

@@ -47,7 +47,7 @@
   background-size: contain;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 620px) {
     .contact {
       flex-direction: column;
       text-align: center;
