@@ -4,6 +4,7 @@ import Navigation from "../navigation"
 import Footer from "../footer"
 import cissi from "./CissiWong.jpg"
 import gitlogo from "./github-logo-blk.svg"
+import cv from "./cv-symbol.svg"
 
 class About extends React.Component {
 
@@ -24,16 +25,25 @@ class About extends React.Component {
               <br /> I am currently enrolled in a bootcamp by the pop-up school Technigo,
               studying JavaScript and React and aspiring to become a front end developer.
             </p>
-            {/* <a
+            <a
               className="github-link"
               href="https://github.com/CissiWong"
               target="_blank"
-              rel="noopener noreferrer"> */}
+              rel="noopener noreferrer" >
               <img
                 className="github-logo"
                 src={gitlogo}
                 alt="" />
-            {/* </a> */}
+            </a>
+            <a
+              className="cv-link"
+              href="./CV_Cecilia_Wong.pdf"
+              download >
+              <img
+                className="cv"
+                src={cv}
+                alt="" />
+            </a>
           </div>
           <div className="img-wrapper">
             <img

@@ -11,7 +11,7 @@ class Footer extends React.Component {
         <div className="contact">
           <h4>Cecilia Wong</h4>
           <a className="email" href="mailto:cissi.wong@gmail.com">cissi.wong@gmail.com</a>
-          <a className="phone" href="callto:+46762009902">+46(0)762009902</a>
+          <a className="phone" href="callto:+46762009902">+46(0)76 200 99 02</a>
           <div className="social-icons">
             <a className="github" href="https://github.com/CissiWong" alt="link to github">
               <img src={ghlogo} alt="github logo" />
