@@ -36,12 +36,13 @@
 
 @media (max-width: 620px) {
   .logo {
-    top: 30%;
-    width: 80%;
-    height: 50%;
+    top: 25%;
+    width: 50%;
+    height: 30%;
   }
   .header {
     height: 200px;
     width: 100%;
+    background-size: contain;
   }
 }
