@@ -34,13 +34,14 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 620px) {
   .logo {
-    top: 28%;
-    width: 75%;
-    height: 20%;
+    top: 30%;
+    width: 80%;
+    height: 50%;
   }
   .header {
-
+    height: 200px;
+    width: 100%;
   }
 }
