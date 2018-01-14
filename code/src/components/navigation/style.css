@@ -72,7 +72,6 @@ label {
     .mobile-menu {
       flex-direction: row;
       line-height: 1;
-      width: 80%;
     }
     .navigation {
       width: 80%;
