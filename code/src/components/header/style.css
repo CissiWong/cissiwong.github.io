@@ -1,4 +1,5 @@
 .header {
+  box-sizing: border-box;
   background-image: url("./leaf.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,15 +37,15 @@
 
 @media (max-width: 620px) {
   .logo {
-    top: 25%;
-    width: 50%;
-    height: 30%;
+    top: 30%;
+    width: 60%;
+    height: 40%;
   }
   .header {
     height: 200px;
     width: auto;
-    background-size: contain;
-    margin: 0;
-    padding: 20px 0 0 10px;
+    margin: 0 0 20px 0;
+    background-size: cover;
+    padding: 20px 0 20px 10px;
   }
 }
