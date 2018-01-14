@@ -42,7 +42,7 @@
   }
   .header {
     height: 200px;
-    width: 100%;
+    width: auto;
     background-size: contain;
     margin: 0;
     padding: 20px 0 0 10px;
