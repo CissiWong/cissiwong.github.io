@@ -1,3 +1,7 @@
+.Home {
+  width: 100%;
+}
+
 .portfolio {
   display: flex;
   flex-direction: column;
@@ -15,4 +19,12 @@
   margin-top: 100px;
   margin-bottom: 100px;
   /* margin: 100px 20px 100px 20px; */
+}
+
+@media (max-width: 620px) {
+  .portfolio,
+  .portfolio-wrapper {
+    width: 100%;
+    margin: 0;
+  }
 }

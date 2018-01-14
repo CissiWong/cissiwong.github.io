@@ -52,4 +52,7 @@
       flex-direction: column;
       text-align: center;
     }
+    .Footer {
+      padding: 30px auto 30px auto;
+    }
    }

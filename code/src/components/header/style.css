@@ -44,5 +44,7 @@
     height: 200px;
     width: 100%;
     background-size: contain;
+    margin: 0;
+    padding: 30px auto 0 10px;
   }
 }
