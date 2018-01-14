@@ -42,6 +42,8 @@ export default class ProjectView extends React.Component {
           </div>
           <div className="project-view-description">
             <h1>{this.state.project.title}</h1>
+            <br />
+            <h4>{this.state.project.language}</h4>
             <p>{this.state.project.description}</p>
             <a
               className="github-link"

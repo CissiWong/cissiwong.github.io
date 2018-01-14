@@ -43,6 +43,12 @@ h1 {
 p {
   color: #343239;
 }
+h4 {
+  color: #343239;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
 
 .github-logo {
   margin: 10px;

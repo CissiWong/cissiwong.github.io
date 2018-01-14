@@ -25,6 +25,31 @@
 			"description": "Here I am using JavaScript and React to fetch from the API of the Swedish Public Radio. The layout is done with FlexBox.",
 			"link": "https://cissiwong.github.io/assignment-radio-player/",
 			"repository": "https://github.com/CissiWong/radio-player"
+		},
+		{
+			"image": "/images/tictail_example_shop.png",
+			"title": "Example Shop, React",
+			"id": "tictail",
+			"language": "HTML, CSS, JavaScript with React",
+			"description": "This was a group assignment at Technigo, sponsored by Tictail, to create a small webshop. Four students of Technigo, in collaboration with the developers of Tictail,worked together on this two week sprint. The shop products come from an API and is handled by Javascript in React.",
+			"link": "",
+			"repository": "https://github.com/CissiWong/habit-tracker"
+		}, {
+			"image": "/images/sass.png",
+			"title": "SASS",
+			"id": "sass",
+			"language": "HTML, CSS, SCSS",
+			"description": "Copying the front page of airline Norweigans search function, using SASS.",
+			"link":"",
+			"repository": "https://github.com/CissiWong/sass"
+		}, {
+			"image": "/images/habit-tracker.png",
+			"title": "Habit tracker",
+			"id": "tracker",
+			"language": "HTML, CSS, JavaScript with React, data visualization with Rechart library",
+			"description": "This was a group assignment at Technigo, where three students built a habit tracker. It works as a to-do app, where one can add and remove tasks, but it also tracks daily and weekly progress.",
+			"link":"",
+			"repository": "https://github.com/CissiWong/sass"
 		}
 	]
 }
