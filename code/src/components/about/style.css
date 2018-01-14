@@ -1,6 +1,6 @@
 .about-container {
   height: 100px;
-  width: auto;
+  width: 100%;
   padding: 40px 0 40px 25px;
 }
 
@@ -14,10 +14,10 @@
 }
 
 .about-description {
-  height: 500px;
+  height: auto;
   width: 300px;
-  margin-right: 20px;
-  padding: 10px;
+  margin-left: 20px;
+  padding: 20px;
 }
 
 header {
@@ -34,8 +34,8 @@ header {
 
 .portrait {
   position: absolute;
-  height: 400px;
-  width: auto;
+  width: 400px;
+  height: auto;
   top: 50%;
   right: 0;
   bottom: 0;
@@ -47,4 +47,27 @@ header {
   margin: 10px;
   height: 40px;
   width: 40px;
+}
+
+@media (max-width: 620px) {
+  .about-container,
+  header,
+  .about-wrapper,
+  .img-wrapper,
+  .portrait,
+  footer {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+  .about-container {
+    padding: 0;
+  }
+  header {
+    padding: 20px;
+    height: 50px;
+  }
+  h1 {
+    font-size: 21px;
+  }
 }

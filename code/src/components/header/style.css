@@ -1,10 +1,10 @@
 .header {
   background-image: url("./leaf.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   height: 500px;
-  width: auto;
+  width: 100%;
   padding: 40px 0 40px 25px;
 }
 

@@ -15,6 +15,12 @@ class About extends React.Component {
           <Navigation />
         </header>
         <div className="about-wrapper">
+          <div className="img-wrapper">
+            <img
+              className="portrait"
+              src={cissi}
+              alt="" />
+          </div>
           <div className="about-description">
             <h1>Cecilia Wong</h1>
             <p>Curious, focused and positive individual with proven excellent
@@ -44,12 +50,6 @@ class About extends React.Component {
                 src={cv}
                 alt="" />
             </a>
-          </div>
-          <div className="img-wrapper">
-            <img
-              className="portrait"
-              src={cissi}
-              alt="" />
           </div>
         </div>
         <Footer />
