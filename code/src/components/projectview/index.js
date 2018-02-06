@@ -36,9 +36,11 @@ export default class ProjectView extends React.Component {
         </header>
         <main className="project-view-wrapper" >
           <div className="image-box">
-            <div
-              className="project-view-image"
-              style={{ backgroundImage: `url(${this.state.project.image})` }} />
+            <a href={this.state.project.link} alt="" target="_blank">
+              <div
+                className="project-view-image"
+                style={{ backgroundImage: `url(${this.state.project.image})` }} />
+            </a>
           </div>
           <div className="project-view-description">
             <h1>{this.state.project.title}</h1>

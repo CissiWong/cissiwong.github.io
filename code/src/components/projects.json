@@ -1,13 +1,22 @@
 {
 	"projects": [{
-			"image": "/images/CSS_grid.png",
-			"title": "CSS Grid",
-			"id": "grid",
-			"language": "HTML5, CSS3",
-			"description": "In this project I have used CSS grid, in React, to create a grid with varying images sizes.",
-			"link": "https://cissiwong.github.io/assignment-css-grid/",
-			"repository": "https://github.com/CissiWong/CSS-grid"
+			"image": "/images/final_project_screenshot.png",
+			"title": "Wizzard",
+			"id": "wizzard",
+			"language": "HTML5, CSS3, React, Node.js",
+			"description": "This is my final project for the Technigo bootcamp. It is a form, with eight questions, where each respons carries a point value. The value is added and a response is rendered, depending on the total score. The total score, the point value of each score and IP addresses are stored in MongoDB.",
+			"link": "https://fodelsebyran.netlify.com/",
+			"repository": "https://github.com/CissiWong/final-project"
 		},
+		{
+				"image": "/images/CSS_grid.png",
+				"title": "CSS Grid",
+				"id": "grid",
+				"language": "HTML5, CSS3",
+				"description": "In this project I have used CSS grid, in React, to create a grid with varying images sizes.",
+				"link": "https://cissiwong.github.io/assignment-css-grid/",
+				"repository": "https://github.com/CissiWong/CSS-grid"
+			},
 		{
 			"image": "/images/clock-wht.png",
 			"title": "Clock",
