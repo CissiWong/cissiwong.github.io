@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://cissiwong.github.io",
   "dependencies": {
-    "eslint-config-technigo": "^1.5.0",
+    "eslint-config-technigo": "^1.5.2",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
