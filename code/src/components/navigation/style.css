@@ -6,6 +6,7 @@
 }
 
 .navigation a {
+  cursor: pointer;
   color: black;
   font-size: 16px;
   text-decoration: none;
@@ -19,6 +20,7 @@
   background-color: #343239;
   margin: 0px 0 4px 20px;
   transition: all 0.4s ease-in;
+  cursor: pointer;
 }
 
 .mobile-menu li {
@@ -36,6 +38,7 @@
   padding: 0;
   position: absolute;
   transition: all 0.6s ease-in-out;
+  cursor: pointer;
 }
 
 .hamburger-checkbox {
@@ -44,6 +47,7 @@
 
 .hamburger-checkbox:checked + .hamburger-mobile .bar-one {
   transform: rotate(-45deg) translate(-6px, 6px);
+  cursor: pointer;
   /* transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out; */
@@ -52,10 +56,12 @@
 
 .hamburger-checkbox:checked + .hamburger-mobile .bar-two {
   opacity: 0;
+  cursor: pointer;
 }
 
 .hamburger-checkbox:checked + .hamburger-mobile .bar-three {
   transform: rotate(45deg) translate(-5px, -5px);
+  cursor: pointer;
   /* transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out; */
@@ -63,10 +69,12 @@
 
 .hamburger-checkbox:checked ~ .mobile-menu {
    opacity: 1;
+   cursor: pointer;
 }
 
 label {
   margin: 0;
+  cursor: pointer;
 }
 
 
@@ -74,9 +82,11 @@ label {
     .mobile-menu {
       flex-direction: row;
       line-height: 1;
+      cursor: pointer;
     }
     .navigation {
       width: 80%;
       margin-right: 0;
+      cursor: pointer;
     }
    }
