@@ -50,7 +50,7 @@
 			"id": "tictail",
 			"language": "HTML, CSS, JavaScript with React",
 			"description": "This was a group assignment at Technigo, sponsored by Tictail, to create a small webshop. Four students of Technigo, in collaboration with the developers of Tictail,worked together on this two week sprint. The shop products come from an API and is handled by Javascript in React.",
-			"link": "https://cissiwong.github.io/categories/a3mi",
+			"link": "https://react-shop-example.netlify.com/",
 			"repository": "https://github.com/CissiWong/shop-example"
 		}, {
 			"image": "/images/sass.png",
