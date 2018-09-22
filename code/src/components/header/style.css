@@ -1,0 +1,51 @@
+.header {
+  box-sizing: border-box;
+  background-image: url("./leaf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+  width: 100%;
+  padding: 40px 0 40px 25px;
+}
+
+.logo {
+  opacity: 1;
+  height: 300px;
+  width: 60%;
+  background-image: url("/images/ceciliawong.png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+  top: 18%;
+  left: 10%;
+  -webkit-animation: logo 2s ease-in;
+  -moz-animation: logo 2s ease-in;
+  -o-animation: logo 2s ease-in;
+
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 620px) {
+  .logo {
+    top: 30%;
+    width: 60%;
+    height: 40%;
+  }
+  .header {
+    height: 200px;
+    width: auto;
+    margin: 0 0 20px 0;
+    background-size: cover;
+    padding: 20px 0 20px 10px;
+  }
+}
